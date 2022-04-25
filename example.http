@@ -1,0 +1,12 @@
+PUT http://localhost:3000/update/teja@teja.com HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Teja Reddy M"
+}
+
+
+# GET http://localhost:3000/ HTTP/1.1
+
+
+GET http://localhost:3000/email/teja@teja.com HTTP/1.1
